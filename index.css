@@ -34,6 +34,8 @@ button{
 }
 @media (max-width: 640px) {
     .joke {
+        margin-top:30px;
         width: 100%;
         height: auto;      
         padding: 16px;    }}
+
