@@ -13,6 +13,8 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 100vw;
+    align-items: center;
 }
 
 .joke{
@@ -32,10 +34,11 @@ button{
     width: 140px;
     height: 30px;
 }
+
 @media (max-width: 640px) {
     .joke {
-        margin-top:30px;
-        width: 100%;
+        width: 80vw;
         height: auto;      
-        padding: 16px;    }}
-
+        padding: 16px;   
+     }
+    }
