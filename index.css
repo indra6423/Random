@@ -32,3 +32,8 @@ button{
     width: 140px;
     height: 30px;
 }
+@media (max-width: 640px) {
+    .joke {
+        width: 100%;
+        height: auto;      
+        padding: 16px;    }}
