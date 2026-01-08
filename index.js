@@ -22,6 +22,8 @@ button.addEventListener("click",async()=>{
             clearInterval(interval);
             timer.innerText = "";
             punch.innerText = joke.punchline;
+            button.innerText="One More??"
         }
     }, 1000);
+
 })
